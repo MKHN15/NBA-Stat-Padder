@@ -1,0 +1,8 @@
+x = mvp['PER']
+y = mvp['MVP Score']
+
+plt.scatter(x, y)
+plt.title('PER vs. MVP Score', fontdict={'fontsize':16, 'fontweight':'bold'})
+plt.xlabel('PER of Player', fontdict={'fontweight':'bold'})
+plt.ylabel('MVP Score', fontdict={'fontweight':'bold'})
+plt.show()
